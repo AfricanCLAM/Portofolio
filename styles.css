@@ -85,10 +85,23 @@ nav button{
 
 nav button:hover,
 .hero .left-section .top .buttons button.doc:hover,
-.contact .items .item button:hover{
+.tech .items .item button:hover{
     color: #000;
     background: #fff;
     border-color: #dedede;
+}
+
+.tech .items .item .images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tech .items .item .images img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
 }
 
 nav button i{
@@ -136,7 +149,7 @@ nav button i{
 
 .hero .left-section .top .buttons button,
 .projects .inner > button,
-.contact .items .item button{
+.tech .items .item button{
     font-size: 16px;
     border: none;
     padding: 5px 20px;
@@ -156,7 +169,7 @@ nav button i{
 }
 
 .hero .left-section .top .buttons button.doc,
-.contact .items .item button{
+.tech .items .item button{
     background: #000;
     color: #fff;
 }
@@ -165,6 +178,11 @@ nav button i{
     background: #000;
     color: #fff;
     border-color: transparent;
+}
+
+.git a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .hero .left-section .bottom p{
@@ -183,7 +201,7 @@ nav button i{
     width: fit-content;
 }
 
-.about{
+.experience{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,7 +210,7 @@ nav button i{
     padding: 50px;
 }
 
-.about > p{
+.experience > p{
     font-size: 14px;
     color: #606060;
     border: 1px solid #e8e8e8;
@@ -202,19 +220,19 @@ nav button i{
     background: #fff;
 }
 
-.about > h2{
+.experience > h2{
     font-size: 22px;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.about .items{
+.experience .items{
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.about .items .item{
+.experience .items .item{
     width: 26%;
     border: 1px solid #e8e8e8;
     border-radius: 16px;
@@ -222,7 +240,7 @@ nav button i{
     padding: 0 0 30px;
 }
 
-.about .items .item .inner{
+.experience .items .item .inner{
     background: #fff;
     padding: 24px;
     border-radius: 16px;
@@ -230,20 +248,20 @@ nav button i{
     min-height: 365px;
 }
 
-.about .items .item .inner img{
+.experience .items .item .inner img{
     width: 100%;
     margin-bottom: 16px;
     border-radius: 12px;
 }
 
-.about .items .item .inner a{
+.experience .items .item .inner a{
     font-size: 18px;
     color: #000;
     margin-bottom: 10px;
     display: block;
 }
 
-.about .items .item .inner p{
+.experience .items .item .inner p{
     color: #606060;
     font-size: 15px;
 }
@@ -326,50 +344,50 @@ nav button i{
     line-height: 24px;
 }
 
-.contact{
+.tech{
     padding: 100px 60px;
     background: #f5f5f5;
 }
 
-.contact > h2{
+.tech > h2{
     font-size: 36px;
     margin-bottom: 40px;
 }
 
-.contact .items{
+.tech .items{
     display: flex;
     background: #fff;
-    border-radius: 12px;
+    border-radius: 20px;
 }
 
-.contact .items .item{
+.tech .items .item{
     width: 50%;
     padding: 30px;
     border: 1px solid #dedede;
 }
 
-.contact .items .item:nth-child(1){
+.tech .items .item:nth-child(1){
     border-radius: 12px 0 0 12px;
 }
 
-.contact .items .item:nth-child(2){
+.tech .items .item:nth-child(2){
     border-radius: 0 12px 12px 0;
 }
 
-.contact .items .item a{
+.tech .items .item a{
     font-size: 24px;
     color: #000;
     display: inline-block;
     margin-bottom: 16px;
 }
 
-.contact .items .item p{
+.tech .items .item p{
     font-size: 20px;
     color: #606060;
     margin-bottom: 26px;
 }
 
-.contact .items .item button{
+.tech .items .item button{
     padding: 10px 24px;
 }
 
@@ -406,7 +424,7 @@ footer a:hover{
 
     .hero .left-section .top .buttons button,
     .projects .inner > button,
-    .contact .items .item button{
+    .tech .items .item button{
         font-size: 14px;
         padding: 8px 14px;
     }
@@ -415,17 +433,17 @@ footer a:hover{
         font-size: 18px;
     }
 
-    .about .items .item .inner{
+    .experience .items .item .inner{
         min-height: 340px;
     }
 
-    .about .items .item .inner a,
+    .experience .items .item .inner a,
     .projects .inner > p.info,
-    .contact .items .item p{
+    .tech .items .item p{
         font-size: 15px;
     }
 
-    .about .items .item .inner p{
+    .experience .items .item .inner p{
         font-size: 13px;
     }
 
@@ -438,7 +456,7 @@ footer a:hover{
         height: 220px;
     }
 
-    .contact .items .item a{
+    .tech .items .item a{
         font-size: 18px;
     }
 
@@ -466,11 +484,11 @@ footer a:hover{
         justify-content: center;
     }
 
-    .about .items{
+    .experience .items{
         flex-wrap: wrap;
     }
 
-    .about .items .item{
+    .experience .items .item{
         width: 40%;
     }
 
@@ -478,7 +496,7 @@ footer a:hover{
         height: 250px;
     }
 
-    .contact .items .item button{
+    .tech .items .item button{
         width: 100%;
     }
 
@@ -503,15 +521,15 @@ footer a:hover{
         width: 55%;
     }
 
-    .about > h2{
+    .experience > h2{
         font-size: 18px;
     }
 
-    .about .items .item{
+    .experience .items .item{
         width: 100%;
     }
 
-    .about .items .item .inner img{
+    .experience .items .item .inner img{
         height: 65%;
         max-height: 250px;
     }
@@ -552,27 +570,27 @@ footer a:hover{
         font-size: 14px;
     }
 
-    .contact{
+    .tech{
         padding: 100px 40px;
     }
 
-    .contact > h2{
+    .tech > h2{
         font-size: 22px;
     }
 
-    .contact .items{
+    .tech .items{
         flex-wrap: wrap;
     }
 
-    .contact .items .item{
+    .tech .items .item{
         width: 100%;
     }
 
-    .contact .items .item:nth-child(1){
+    .tech .items .item:nth-child(1){
         border-radius: 12px 12px 0 0;
     }
 
-    .contact .items .item:nth-child(2){
+    .tech .items .item:nth-child(2){
         border-radius: 0 0 12px 12px;
     }
 

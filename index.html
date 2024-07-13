@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="icon" href="assets/logo.png" type="image/icon type">
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
 </head>
@@ -14,16 +15,16 @@
     <nav>
         <div class="logo">
             <img src="assets/logo.png">
-            <a href="#">AfricanCLAM</a>
+            <a href="#home">AfricanCLAM</a>
         </div>
         <div class="nav-links">
-            <a href="#About">About</a>
-            <a href="#">Experience</a>
-            <a href="#">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#project">Projects</a>
+            <a href="#tech">Techstack</a>
         </div>
     </nav>
 
-    <div class="hero" id="About">
+    <div class="hero" id="home">
         <div class="left-section">
             <div class="top">
                 <h2>About me</h2>
@@ -35,7 +36,7 @@
 
                 <div class="buttons">
                     <button class="doc">Hire Me Now <i class="ri-arrow-right-line"></i></button>
-                    <button class="git"><i class="ri-github-fill"></i> My Github</button>
+                    <button class="git"><i class="ri-github-fill"></i><a href="https://github.com/AfricanCLAM">My github</a></button>
                 </div>
             </div>
             <div class="bottom">
@@ -53,9 +54,9 @@
 
     </div>
 
-    <div class="about">
-        <p>About Web Development</p>
-        <h2>I create user-friendly, and beautiful websites and applications.</h2>
+    <div class="experience" id="experience">
+        <p>Experience</p>
+        <h2>here are some of my achievement that can serve as a prove of my experience</h2>
         <div class="items">
             <div class="item">
                 <div class="inner">
@@ -82,7 +83,7 @@
         </div>
     </div>
 
-    <div class="projects">
+    <div class="projects" id="project">
         <div class="inner">
             <h2>Projects Showcase</h2>
             <p class="info">Take a look at some of my notable projects, showcasing my ability to design and develop
@@ -110,18 +111,28 @@
         </div>
     </div>
 
-    <div class="contact">
-        <h2>Interested in Working Together?</h2>
+    <div class="tech" id="tech">
+        <h2>Tech stack</h2>
         <div class="items">
             <div class="item">
-                <a href="#">Schedule a call</a>
-                <p>Let's discuss your project ideas and how I can help you.</p>
-                <button>Schedule a Call</button>
+                <a href="#">Frontend</a>
+                <p>here's the tech used for the Frontend section</p>
+                <div class="images">
+                    <img src="assets/proglang/fe/html.svg" alt="html">
+                    <img src="assets/proglang/fe/css.svg" alt="css">
+                    <img src="assets/proglang/fe/javascript.svg" alt="JavaScript">
+                    <img src="assets/proglang/fe/react.svg" alt="react">
+                    <img src="assets/proglang/fe/bootstrap.svg" alt="Bootstrap">
+                </div>
             </div>
             <div class="item">
-                <a href="#">Explore My Work</a>
-                <p>View my portfolio to see the kind of work I do for you.</p>
-                <button>View My Work</button>
+                <a href="#">Backend</a>
+                <p>here's the tech i used for the backend <section></section></p>
+                <div class="images">
+                    <img src="assets/proglang/be/express.png" alt="Express">
+                    <img src="assets/proglang/be/nodejs.svg" alt="node">
+                    <img src="assets/proglang/be/mysql.png" alt="mySQL">
+                </div>
             </div>
         </div>
     </div>
