@@ -1,0 +1,4 @@
+outer space  (black) = #192121
+Gosamer (Green) = #09A874
+Cerise (Violet) = #E22394
+Affair = #804898

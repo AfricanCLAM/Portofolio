@@ -1,0 +1,72 @@
+body {
+  scroll-behavior: smooth;
+}
+
+/* utilities */
+.outer-space-color {
+  color: #192121;
+}
+
+.affair-color {
+  color: #804898;
+}
+
+.gosamer-color {
+  background-color: #09a874;
+}
+
+.gradient {
+  font-size: 20px;
+  background: linear-gradient(to right, #804898, #e22394);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  color: inherit; /* Inherits color from parent */
+  text-decoration: none; /* Removes underline */
+}
+
+/* For nav-items specifically */
+.nav-item a,
+.nav-item a:hover {
+  color: inherit;
+}
+
+/* Experiences styling */
+.experience-section {
+  background-color: #f8f9fa;
+}
+
+/* Make entire carousel item clickable */
+.carousel-item {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.carousel-item:hover {
+  transform: scale(1.01);
+}
+
+/* Adjust carousel image height */
+.carousel-inner {
+  max-height: 500px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+/* Override active default bg color */
+.active {
+  background-color: #e22394 !important;
+  color: #192121 !important ;
+}

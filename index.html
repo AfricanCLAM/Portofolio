@@ -1,13 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>AfricanCLAM</title>
+    <!-- Bootstrap - CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="./icons/bootstrap/bootstrap-icons.css" />
+
+    <link
+      rel="stylesheet"
+      href="./icons/devicon/devicon-master/devicon.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Components -->
+    <script
+      src="./js/components/header.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="./js/components/hero.js" type="text/javascript" defer></script>
+    <script
+      src="./js/components/experiences.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
+      src="./js/components/projects.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="./js/components/tech.js" type="text/javascript" defer></script>
+    <script
+      src="./js/components/footer.js"
+      type="text/javascript"
+      defer
+    ></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <!-- header - start -->
+    <header-component></header-component>
+
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar"
+      data-bs-root-margin="0px 0px -60%"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example"
+      tabindex="0"
+    >
+      <!-- Hero - start  -->
+      <hero-section></hero-section>
+      <!-- Hero - end -->
+
+      <!-- Experiences - start -->
+      <experiences-section></experiences-section>
+      <!-- Experinece - end -->
+
+      <!-- Projects - start -->
+      <projects-section></projects-section>
+      <!-- Projects - end -->
+
+      <!-- Tech - start -->
+      <tech-section></tech-section>
+      <!-- Tech - end -->
+
+      <!-- Footer - start -->
+      <footer-section></footer-section>
+      <!-- Footer - end -->
+    </div>
+
+    <!-- Bootstrap - JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
