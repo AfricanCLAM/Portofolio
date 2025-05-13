@@ -16,7 +16,6 @@ body {
 }
 
 .gradient {
-  font-size: 20px;
   background: linear-gradient(to right, #804898, #e22394);
   background-clip: text;
   -webkit-background-clip: text;
@@ -38,6 +37,25 @@ a {
 .nav-item a,
 .nav-item a:hover {
   color: inherit;
+}
+
+/* Hero styling */
+#hero {
+  background-image: url("../img/hero-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15.5px);
+  -webkit-backdrop-filter: blur(15.5px);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 2rem auto;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 /* Experiences styling */
@@ -69,4 +87,32 @@ a {
 .active {
   background-color: #e22394 !important;
   color: #192121 !important ;
+}
+
+/* Font */
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "dmSans";
+  src: url("../fonts/DMSans_18pt-Regular.ttf");
+}
+
+@font-face {
+  font-family: "spaceMono";
+  src: url("../fonts/SpaceMono-Regular.ttf");
+}
+
+.font-poppins {
+  font-family: "poppins";
+}
+
+.font-dmsans {
+  font-family: "dmSans";
+}
+
+.font-spacemono {
+  font-family: "spaceMono";
 }

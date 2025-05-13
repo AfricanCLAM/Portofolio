@@ -9,7 +9,7 @@ class Tech extends HTMLElement {
       class="experience-section centered min-vh-100  py-5 mt-5"
       id="skills">
          <div class="container">
-        <h2 class="text-center mb-5" style="color: #e22394">
+        <h2 class="text-center mb-5 font-poppins" style="color: #e22394">
           Technical Skills
         </h2>
 
@@ -17,56 +17,56 @@ class Tech extends HTMLElement {
           <!-- Frontend Skills -->
           <div class="col-md-6 col-lg-4">
             <div class="p-4 rounded-3 h-100" style="background-color: #192121">
-              <h4 class="text-white mb-4">Frontend</h4>
+              <h4 class="text-white mb-4 font-poppins">Frontend</h4>
               <div class="d-flex flex-wrap gap-4">
                 <div class="text-center">
                   <i
                     class="devicon-html5-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">HTML5</p>
+                  <p class="mt-2 text-white font-dmsans">HTML5</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-css3-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">CSS3</p>
+                  <p class="mt-2 text-white font-dmsans">CSS3</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-javascript-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">JavaScript</p>
+                  <p class="mt-2 text-white font-dmsans">JavaScript</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-react-original colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">React</p>
+                  <p class="mt-2 text-white font-dmsans">React</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-livewire-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">Livewire</p>
+                  <p class="mt-2 text-white font-dmsans">Livewire</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-bootstrap-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">Bootstrap</p>
+                  <p class="mt-2 text-white font-dmsans">Bootstrap</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-tailwindcss-original colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">Tailwind</p>
+                  <p class="mt-2 text-white font-dmsans">Tailwind</p>
                 </div>
               </div>
             </div>
@@ -75,42 +75,42 @@ class Tech extends HTMLElement {
           <!-- Backend Skills -->
           <div class="col-md-6 col-lg-4">
             <div class="p-4 rounded-3 h-100" style="background-color: #192121">
-              <h4 class="text-white mb-4">Backend</h4>
+              <h4 class="text-white mb-4 font-poppins">Backend</h4>
               <div class="d-flex flex-wrap gap-4">
                 <div class="text-center">
                   <i
                     class="devicon-nodejs-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">Node.js</p>
+                  <p class="mt-2 text-white font-dmsans">Node.js</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-express-original"
                     style="font-size: 2.5rem; color: #fff"
                   ></i>
-                  <p class="mt-2 text-white">Express</p>
+                  <p class="mt-2 text-white font-dmsans">Express</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-php-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">PHP</p>
+                  <p class="mt-2 text-white font-dmsans">PHP</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-laravel-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">Laravel</p>
+                  <p class="mt-2 text-white font-dmsans">Laravel</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-codeigniter-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">Code Igniter</p>
+                  <p class="mt-2 text-white font-dmsans">Code Igniter</p>
                 </div>
               </div>
             </div>
@@ -119,28 +119,28 @@ class Tech extends HTMLElement {
           <!-- Database Skills -->
           <div class="col-md-6 col-lg-4">
             <div class="p-4 rounded-3 h-100" style="background-color: #192121">
-              <h4 class="text-white mb-4">Database</h4>
+              <h4 class="text-white mb-4 font-poppins">Database</h4>
               <div class="d-flex flex-wrap gap-4">
                 <div class="text-center">
                   <i
                     class="devicon-sqlite-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">SQLite</p>
+                  <p class="mt-2 text-white font-dmsans">SQLite</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-postgresql-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">PostgreSQL</p>
+                  <p class="mt-2 text-white font-dmsans">PostgreSQL</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-mysql-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">MySQL</p>
+                  <p class="mt-2 text-white font-dmsans">MySQL</p>
                 </div>
               </div>
             </div>
@@ -149,42 +149,42 @@ class Tech extends HTMLElement {
           <!-- Tools -->
           <div class="col-md-6 col-lg-4">
             <div class="p-4 rounded-3 h-100" style="background-color: #192121">
-              <h4 class="text-white mb-4">Tools</h4>
+              <h4 class="text-white mb-4 font-poppins">Tools</h4>
               <div class="d-flex flex-wrap gap-4">
                 <div class="text-center">
                   <i
                     class="devicon-git-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">Git</p>
+                  <p class="mt-2 text-white font-dmsans">Git</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-github-original"
                     style="font-size: 2.5rem; color: #fff"
                   ></i>
-                  <p class="mt-2 text-white">GitHub</p>
+                  <p class="mt-2 text-white font-dmsans">GitHub</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-vscode-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">VS Code</p>
+                  <p class="mt-2 text-white font-dmsans">VS Code</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-bash-plain"
                     style="font-size: 2.5rem; color: #fff"
                   ></i>
-                  <p class="mt-2 text-white">Bash</p>
+                  <p class="mt-2 text-white font-dmsans">Bash</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-postman-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">Postman</p>
+                  <p class="mt-2 text-white font-dmsans">Postman</p>
                 </div>
               </div>
             </div>
@@ -193,28 +193,28 @@ class Tech extends HTMLElement {
           <!-- Others -->
           <div class="col-md-6 col-lg-4">
             <div class="p-4 rounded-3 h-100" style="background-color: #192121">
-              <h4 class="text-white mb-4">Others</h4>
+              <h4 class="text-white mb-4 font-poppins">Others</h4>
               <div class="d-flex flex-wrap gap-4">
                 <div class="text-center">
                   <i
                     class="devicon-visualbasic-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">Visual basic</p>
+                  <p class="mt-2 text-white font-dmsans">Visual basic</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-python-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">Python</p>
+                  <p class="mt-2 text-white font-dmsans">Python</p>
                 </div>
                 <div class="text-center">
                   <i
                     class="devicon-java-plain colored"
                     style="font-size: 2.5rem"
                   ></i>
-                  <p class="mt-2 text-white">Java</p>
+                  <p class="mt-2 text-white font-dmsans">Java</p>
                 </div>
               </div>
             </div>

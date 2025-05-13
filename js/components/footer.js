@@ -22,8 +22,8 @@ class Footer extends HTMLElement {
                 width="30px"
               />
             </a>
-            <span class="mb-3 mb-md-0 text-body-secondary"
-              >Made By AfricanCLAM</span
+            <p class="mb-3 mb-md-0 outer-space-color font-spacemono"
+              >Made By <span class="gradient font-poppins">AfricanCLAM</span> </p
             >
           </div>
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -34,7 +34,7 @@ class Footer extends HTMLElement {
                 aria-label="Github"
               >
                 <i
-                  class="bi bi-github affair-color"
+                  class="bi bi-github outer-space-color"
                   style="font-size: 30px"
                 ></i>
               </a>

@@ -10,7 +10,7 @@ class Experiences extends HTMLElement {
       id="experiences"
     >
       <div class="container">
-        <h2 class="text-center mb-4" style="color: #e22394">Experiences</h2>
+        <h2 class="text-center mb-4 font-poppins" style="color: #e22394">Experiences</h2>
 
         <!-- Carousel with reduced size -->
         <div
@@ -70,8 +70,8 @@ class Experiences extends HTMLElement {
               <div
                 class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-3"
               >
-                <h5>Dasar Pemrograman Web</h5>
-                <p>
+                <h5 class="font-spacemono">Dasar Pemrograman Web</h5>
+                <p class="font-dmsans">
                   Kelas ini membahas tuntas dasar HTML dan CSS sebagai tiga
                   fondasi pembuatan website.
                 </p>
@@ -92,8 +92,8 @@ class Experiences extends HTMLElement {
               <div
                 class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-3"
               >
-                <h5>Dasar pemrograman JavaScript</h5>
-                <p>
+                <h5 class="font-spacemono">Dasar pemrograman JavaScript</h5>
+                <p class="font-dmsans">
                   Kelas ini ditujukan untuk individu yang ingin melangkah
                   menjadi seorang Web Developer/Back-end developer menggunakan
                   teknologi Node.js menggunakan standar kompetensi industri yang
@@ -116,8 +116,8 @@ class Experiences extends HTMLElement {
               <div
                 class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-3"
               >
-                <h5>Prinsip Pemrograman SOLID</h5>
-                <p>
+                <h5 class="font-spacemono">Prinsip Pemrograman SOLID</h5>
+                <p class="font-dmsans">
                   Kelas ini ditujukan bagi pemula yang ingin memahami bagaimana
                   menuliskan kode yang baik dengan paradigma OOP
                   (object-priented programming) dengan mengacu pada standar
@@ -140,8 +140,8 @@ class Experiences extends HTMLElement {
               <div
                 class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-3"
               >
-                <h5>FRONT-END Web</h5>
-                <p>
+                <h5 class="font-spacemono">FRONT-END Web</h5>
+                <p class="font-dmsans">
                   Kelas ini ditujukan untuk seorang Front-End Web Developer yang
                   ingin mengembangkan website yang memiliki fungsionalitas lebih
                   daripada hanya media informasi saja, sesuai dengan standar
@@ -164,8 +164,8 @@ class Experiences extends HTMLElement {
               <div
                 class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-3"
               >
-                <h5>BACK-END Web</h5>
-                <p>
+                <h5 class="font-spacemono">BACK-END Web</h5>
+                <p class="font-dmsans">
                   Kelas ini ditujukan untuk individu yang ingin melangkah
                   menjadi seorang Back-End Developer dengan standar kompetensi
                   internasional milik AWS.

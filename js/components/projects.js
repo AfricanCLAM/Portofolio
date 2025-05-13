@@ -6,7 +6,7 @@ class Projects extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 <div class="container px-4 mx-auto min-vh-100 centered" id="projects">
-        <h2 class="text-center mb-5 fw-bold" style="color: #e22394">
+        <h2 class="text-center mb-5 fw-bold font-poppins" style="color: #e22394">
           Projects
         </h2>
 
@@ -18,24 +18,24 @@ class Projects extends HTMLElement {
               style="background-color: #192121"
             >
               <div class="card-body text-white">
-                <h5 class="card-title d-flex align-items-center gap-2">
+                <h5 class="card-title d-flex align-items-center gap-2 font-poppins">
                   <i class="bi bi-cup-hot" style="color: #e22394"></i>
                   Coffee Shop
                 </h5>
-                <p class="card-text text-light">
+                <p class="card-text text-light font-dmsans">
                   A responsive coffee shop website with menu and ordering
                   system. my very first micro-project from WPU Tutorial
                 </p>
                 <div class="mt-auto">
                   <span
-                    class="badge rounded-pill"
+                    class="badge rounded-pill font-spacemono p-2"
                     style="background-color: #09a874"
                     >HTML/CSS</span
                   >
                   <span
-                    class="badge rounded-pill ms-2"
+                    class="badge rounded-pill font-spacemono p-2 ms-2"
                     style="background-color: #804898"
-                    >JavaScript</span
+                    >JS</span
                   >
                 </div>
               </div>
@@ -49,21 +49,21 @@ class Projects extends HTMLElement {
               style="background-color: #192121"
             >
               <div class="card-body text-white">
-                <h5 class="card-title d-flex align-items-center gap-2">
+                <h5 class="card-title d-flex align-items-center gap-2 font-poppins">
                   <i class="bi bi-shop" style="color: #e22394"></i>
                   E-commerce
                 </h5>
-                <p class="card-text text-light">
+                <p class="card-text text-light font-dmsans">
                  A joint project with my friend in which i developed the backend of the application.
                 </p>
                 <div class="mt-auto">
                   <span
-                    class="badge rounded-pill"
+                    class="badge rounded-pill font-spacemono p-2"
                     style="background-color: #09a874"
                     >HTML/CSS</span
                   >
                   <span
-                    class="badge rounded-pill ms-2"
+                    class="badge rounded-pill font-spacemono p-2 ms-2"
                     style="background-color: #804898"
                     >Node.js</span
                   >
@@ -79,21 +79,21 @@ class Projects extends HTMLElement {
               style="background-color: #192121"
             >
               <div class="card-body text-white">
-                <h5 class="card-title d-flex align-items-center gap-2">
+                <h5 class="card-title d-flex align-items-center gap-2 font-poppins">
                   <i class="bi bi-card-checklist" style="color: #e22394"></i>
                   Note-taking App
                 </h5>
-                <p class="card-text text-light">
+                <p class="card-text text-light font-dmsans">
                   Task management application with markdown support and Additional ToDo list capabilities (In Development).
                 </p>
                 <div class="mt-auto">
                   <span
-                    class="badge rounded-pill"
+                    class="badge rounded-pill font-spacemono p-2"
                     style="background-color: #09a874"
                     >React</span
                   >
                   <span
-                    class="badge rounded-pill ms-2"
+                    class="badge rounded-pill font-spacemono p-2 ms-2"
                     style="background-color: #804898"
                     >Laravel</span
                   >

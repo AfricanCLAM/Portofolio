@@ -7,16 +7,16 @@ class Header extends HTMLElement {
     this.innerHTML = `
       <div class="container-full sticky-top gosamer-color" id="header">
       <header
-        class="d-flex flex-wrap justify-content-center py-3 px-3 mb-4 border-bottom"
+        class="d-flex flex-wrap justify-content-center py-3 px-3 border-bottom"
 >
         <a
-          href="#hero"
+          href="#"
           class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
         >
-          <span class="fs-4 outer-space-color">AfricanCLAM</span>
+          <span class="fs-4 outer-space-color font-poppins gradient">AfricanCLAM</span>
         </a>
         <nav id="navbar">
-        <ul class="nav nav-pills">
+        <ul class="nav nav-pills font-poppins">
           <li class="nav-item">
             <a href="#hero" class="nav-link outer-space-color">About</a>
           </li>
