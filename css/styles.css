@@ -41,7 +41,7 @@ a {
 
 /* Hero styling */
 #hero {
-  background-image: url("../img/hero-bg.jpeg");
+  background-image: url("../img/hero-bg.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
